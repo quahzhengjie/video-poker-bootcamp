@@ -1,5 +1,20 @@
 body {
-  background-color: pink;
+  background-color: grey;
+}
+#header {
+  margin: 5px;
+  max-width: 600px;
+  text-align: center;
+  background-color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#how-to-play {
+  margin: 5px;
+  max-width: 600px;
+  text-align: justify;
+  background-color: white;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
 }
 .card {
   margin: 10px;
@@ -10,64 +25,28 @@ body {
   border-radius: 8px;
   display: inline-block;
 }
-.game-info-container {
-  margin: 10px;
-  padding: 10px;
-  background-color: white;
-  width: 50px;
-  text-align: center;
-  border-radius: 8px;
+.card-container {
+  margin: 5px;
+  height: 200px;
+  background-color: paleturquoise;
+  width: 600px;
+  border-radius: 10px;
   display: inline-block;
 }
-#game-display {
-  margin-bottom: 35px;
-}
-#exchange-button {
-  font-size: 18px;
-}
-.button-container {
-  margin-left: 0;
-  margin-right: 0;
-  justify-content: space-evenly;
-}
-#deal-button {
-  background-color: green;
-}
-#exchange-button {
-  background-color: grey;
-}
-#total-points-container {
-  display: inline-block;
-  margin-top: 15px;
-  margin-left: 40px;
-  width: 20vw;
-}
-#card-container {
-  margin: 10px;
-  padding: 10px;
-  background-color: lightsalmon;
-  width: 500px;
-  border-radius: 8px;
-  display: inline-block;
-}
-
 .suit {
   margin: 5px;
   font-size: 20px;
 }
-
 .name {
   margin: 5px;
   font-size: 24px;
   font-weight: bold;
   font-family: Helvetica;
 }
-
 .red {
   color: red;
 }
-#player-hand-container {
-  width: 70vw;
-  min-height: 250px;
-  margin: 0 auto;
+.card-border {
+  margin: 5px;
+  border-color: hotpink;
 }

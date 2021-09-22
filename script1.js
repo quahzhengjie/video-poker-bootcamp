@@ -320,7 +320,7 @@ const createCard = (card) =>{
   //The Card Element.
   const cardEl = document.createElement('div');
   cardEl.classList.add('card');
-
+  
   //Appending the NAME and SUIT to the CARD Element.
   cardEl.appendChild(CurrentSuit);
   cardEl.appendChild(CurrentName);
