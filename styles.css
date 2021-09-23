@@ -1,12 +1,15 @@
 body {
   background-color: grey;
+  background-image: url("https://media-s3-us-east-1.ceros.com/spg/images/2021/03/10/fc6fad9dda4f7010b93180b72b654732/graphics-mbs.png");
 }
 #header {
   margin: 5px;
   max-width: 660px;
   text-align: center;
+  padding-bottom: 10px;
   background-color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #how-to-play {
   margin: 5px;
@@ -18,7 +21,16 @@ body {
   padding-left: 30px;
   padding-right: 30px;
 }
-
+.info-button-container {
+  margin: 5px;
+  height: 50px;
+  background-color: rgb(243, 243, 164);
+  width: 660px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 20px;
+}
 .card {
   margin: 10px;
   padding: 10px;
