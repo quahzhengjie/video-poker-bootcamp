@@ -35,19 +35,23 @@ body {
 }
 .card-container {
   margin: 5px;
-  height: 200px;
+  height: 1000px;
   background-color: paleturquoise;
   max-width: 660px;
   border-radius: 10px;
+  text-align: center;
 }
 .card {
   margin: 10px;
   padding: 10px;
   background-color: white;
-  width: 50px;
+  width: 70px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 60px;
   text-align: center;
   border-radius: 8px;
   display: inline-block;
+  align-items: center;
 }
 .suit {
   margin: 5px;
