@@ -35,11 +35,12 @@ body {
 }
 .card-container {
   margin: 5px;
-  height: 1000px;
+  height: 200px;
   background-color: paleturquoise;
   max-width: 660px;
   border-radius: 10px;
   text-align: center;
+  padding-top: 15px;
 }
 .card {
   margin: 10px;
@@ -64,6 +65,6 @@ body {
   font-family: Helvetica;
 }
 .card-border {
-  margin: 5px;
+  margin: 200px;
   border-color: hotpink;
 }
