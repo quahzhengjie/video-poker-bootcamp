@@ -226,14 +226,16 @@ const selectOrUnselectCardToExchange = (cardEl, cardToExchange) => {
         cardsToExchange.splice(j, 1); // remove the card from array
         j -= 1; // account for the decrease in array length
         // remove the card border display to let player know card is un-selected
-        cardEl.classList.remove("card-border");
+        let banana = createCardElement(card);
+        banana.classList.remove("card-border");
       }
     }
   }
   if (isCardPresent === false) {
     cardsToExchange.push(cardToExchange); // store the card
     // display the card border to let player know card is selected
-    cardEl.classList.add("card-border");
+    let banana = createCardElement(card);
+    banana.classList.add("card-border");
   }
 };
 
@@ -263,7 +265,7 @@ const exchangeCards = () => {
   }
 };
 
-// For calculating player hand score -------------------------------
+// For calculating player hand score
 // reorder player's cards from highest to lowest rank
 const reorderCards = () => {
   /** for each position starting from the 0th index
@@ -505,9 +507,15 @@ const initGame = () => {
       //push card into hand array
       const card = deck.pop();
       playerhand.push(card);
-      cardContainer.appendChild(createCardElement(card));
+      const cardToExchange = playerhand[i];
       console.log(playerhand);
-      // store the current card in case the player wants to exchange it later
+
+      let banana = createCardElement(card);
+      cardContainer.appendChild(banana);
+      banana.addEventListener("click", (event) => {
+        // console.log("test click");
+        banana.classList.add("card-border");
+      });
     }
   });
 };

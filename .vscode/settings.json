@@ -9,5 +9,8 @@
   "eslint.format.enable": true,
   "eslint.lintTask.enable": true,
   "eslint.migration.2_x": "off",
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
